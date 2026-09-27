@@ -29,7 +29,7 @@ export const MarkLight = Mark;
 
 export default function Logo({ light = false, size = 38 }: { light?: boolean; size?: number }) {
   return (
-    <span className="flex min-w-0 items-center gap-2.5">
+    <span className="flex items-center gap-2.5">
       <Mark size={size} />
       <span className="hidden min-w-0 leading-tight sm:block">
         <b className={`block whitespace-nowrap text-[15px] font-semibold tracking-[-0.01em] ${light ? "text-white" : "text-navy-800"}`}>

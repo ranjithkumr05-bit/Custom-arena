@@ -60,7 +60,7 @@ export function SectionHead({
 }
 
 const btnBase =
-  "inline-flex items-center justify-center gap-2 rounded-md border border-transparent px-5 py-3 text-[14.5px] font-semibold min-h-[44px] transition active:translate-y-px whitespace-nowrap";
+  "inline-flex items-center justify-center gap-2 rounded-md border border-transparent px-5 py-3 text-[14.5px] font-semibold min-h-[44px] min-w-[44px] transition active:translate-y-px whitespace-nowrap";
 
 const variants: Record<string, string> = {
   gold: "bg-gold-500 text-navy-900 hover:bg-gold-400",

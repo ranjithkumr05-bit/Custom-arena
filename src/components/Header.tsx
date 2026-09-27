@@ -59,8 +59,8 @@ export default function Header({ nav = [] }: { nav?: NavCat[] }) {
   return (
     <header className="sticky top-0 z-50 border-b border-sand-200 bg-white/92 backdrop-blur-md backdrop-saturate-150">
       <Wrap className="relative flex h-[72px] items-center gap-4" >
-        <Link href="/" aria-label="CustomWear home" className="flex min-h-[44px] min-w-0 shrink items-center">
-          <Logo />
+        <Link href="/" aria-label="CustomWear home" className="flex min-h-[44px] min-w-[44px] shrink-0 items-center px-3">
+          <Logo size={40} />
         </Link>
 
         <div ref={barRef} className="ml-auto hidden items-center gap-1 lg:flex">
@@ -147,7 +147,7 @@ export default function Header({ nav = [] }: { nav?: NavCat[] }) {
         <div className="ml-auto flex shrink-0 items-center gap-1.5 sm:gap-2 lg:ml-3">
           <CommandPalette />
           <AccountMenu />
-          <Btn href="/quote" variant="navy" className="shrink-0 px-3 text-[14px] sm:px-5 sm:text-[14.5px]">
+          <Btn href="/quote" variant="navy" className="shrink-0 min-w-[44px] px-3 text-[14px] sm:px-5 sm:text-[14.5px]">
             <span className="sm:hidden">Quote</span>
             <span className="hidden sm:inline">Get a Quote</span>
           </Btn>

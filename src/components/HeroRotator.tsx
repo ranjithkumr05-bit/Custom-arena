@@ -56,13 +56,13 @@ export default function HeroRotator({ items }: { items: RotatorItem[] }) {
 
   return (
     <div
-      className="relative mx-auto w-full max-w-[460px] lg:max-w-none"
+      className="relative mx-auto w-full max-w-[460px] max-w-full lg:max-w-none"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onFocusCapture={() => setPaused(true)}
       onBlurCapture={() => setPaused(false)}
     >
-      <div className="relative aspect-[4/3] overflow-hidden rounded-[22px] shadow-[0_44px_88px_-32px_rgba(0,0,0,.85)] ring-1 ring-white/12 sm:aspect-[5/4]">
+      <div className="relative aspect-[4/3] max-w-full overflow-hidden rounded-[22px] shadow-[0_44px_88px_-32px_rgba(0,0,0,.85)] ring-1 ring-white/12 sm:aspect-[5/4]">
         <AnimatePresence initial={false}>
           <motion.div
             key={cur.slug}

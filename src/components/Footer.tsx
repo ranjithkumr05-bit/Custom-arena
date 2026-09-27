@@ -26,8 +26,8 @@ export default function Footer() {
       <Wrap>
         <div className="grid gap-9 md:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1fr]">
           <div>
-            <Link href="/" className="mb-3 inline-flex min-h-[44px] items-center" aria-label="CustomWear home">
-              <Logo light />
+            <Link href="/" className="mb-3 inline-flex min-h-[44px] min-w-[44px] items-center px-3" aria-label="CustomWear home">
+              <Logo light size={40} />
             </Link>
             <p className="max-w-[300px] text-[14px] leading-relaxed">
               Knitwear manufacturing in Tiruppur, Tamil Nadu. Corporate,

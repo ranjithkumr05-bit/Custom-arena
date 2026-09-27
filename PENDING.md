@@ -1,47 +1,61 @@
-# What's pending
+# What's left before production
 
-Audited from the live codebase. Grouped by who can actually do it.
+Audited from the live files. Grouped by who can actually do it.
 
 ---
 
-## 🔴 Blocks launch — only you can supply these
+## 🔴 Blocking — only you can supply these
 
-These are real-world facts. I will not invent them, so they stay marked
-`confirm` and are excluded from structured data until you fill them in.
+### 14 business facts in `content/site.json`
 
-### 14 fields in `content/site.json`
+Nothing here is invented. Each renders an amber marker and is **excluded from
+structured data** until you set `confirm: false`.
 
-| Field | State |
-|---|---|
-| `contact.whatsapp` | **placeholder `910000000000`** — every WhatsApp button is dead until this changes |
-| `contact.phone` · `contact.email` · `contact.hours` | empty |
-| `location.addressLine` · `location.pincode` | empty |
-| `legalName` | empty |
-| `business.yearsTrading` · `dailyCapacity` · `teamSize` · `gstRegistered` | empty |
-| `business.sampleLeadDays` · `bulkLeadDays` · `paymentTerms` | empty |
+| Field | State | Why it matters |
+|---|---|---|
+| `contact.whatsapp` | **`910000000000`** | **Every WhatsApp button on the site is dead** |
+| `contact.phone` | empty | Footer, contact page, mobile call button |
+| `contact.email` | empty | Footer, contact page |
+| `contact.hours` | empty | Contact page |
+| `location.addressLine` | empty | Footer, contact, LocalBusiness schema |
+| `location.pincode` | empty | Local SEO |
+| `legalName` | empty | Invoices, Organization schema |
+| `business.yearsTrading` | empty | About page |
+| `business.dailyCapacity` | empty | About page |
+| `business.teamSize` | empty | About page |
+| `business.gstRegistered` | empty | Buyer trust signal |
+| `business.sampleLeadDays` | empty | Feeds the sample FAQ |
+| `business.bulkLeadDays` | empty | Feeds the lead-time FAQ |
+| `business.paymentTerms` | empty | Feeds the payment FAQ |
 
-**The WhatsApp number is the single highest-priority item on this page.** It
-appears on the floating button, the mobile action bar, every category CTA and
-inside the quote builder's pre-filled message. All of them currently point
-nowhere.
+**The WhatsApp number is the single highest-priority item in this document.**
+It appears on the floating button, the mobile action bar, every category CTA
+and inside the pre-filled quote message. All of them currently point nowhere.
 
-### 2 blank FAQ answers
-`content/faqs.json` — "What are your lead times?" and "What are your payment
-terms?" render as *"To be filled in with your confirmed information."*
+### Pricing is invented
 
-### 7 blank GSM ranges
-`content/fabrics.json` — your actual working range per construction
-(single jersey, pique, interlock, rib, fleece, loop knit, performance poly).
-
-### All pricing is invented
 `content/pricing.json` → `"configured": false`
 
-6 fabric rates · 5 product process costs · 6 branding rates · 5 quantity
-slabs · 18% margin. **The formula is production-ready; the numbers are not.**
-Stated openly on `/pricing`.
+6 fabric rates · 6 product process costs · 6 branding rates · 5 quantity slabs
+· 18% margin — **all placeholders.** The formula is production-ready; the
+numbers are not.
 
-> Real rates for **one product** would be enough to prove the calculator.
-> That is the highest-value thing you can send me.
+While `configured` is false the site shows *"we quote per job"* instead of a
+figure. That is deliberate: a buyer does not read the small print under a
+number, so showing nothing beats showing something wrong.
+
+> Real rates for **one product** would be enough to prove the calculator end
+> to end.
+
+### 2 unanswered FAQs
+
+`content/faqs.json` — *"What are your lead times?"* and *"What are your
+payment terms?"* currently render as "to be filled in".
+
+### 7 blank GSM ranges
+
+`content/fabrics.json` — your actual working range per construction: single
+jersey, pique, interlock, rib, fleece, loop knit, performance poly.
 
 ---
 
@@ -51,61 +65,80 @@ Stated openly on `/pricing`.
 
 | Category | Pending |
 |---|---|
-| School & College T-Shirts | 7 |
-| Retail & Store Apparel | 7 |
-| Private Label & Custom Mfg | 7 |
-| Hoodies & Sweatshirts | 6 |
-| Group & Event T-Shirts | 6 |
-| Workwear & Staff Apparel | 5 |
-| Corporate & Office Apparel | 4 |
+| School Uniform | 7 |
+| Shop & Showroom | 7 |
+| Your Own Brand | 7 |
+| Hoodies | 6 |
+| Group & Event | 6 |
+| Staff & Workwear | 5 |
+| Corporate & Office | 4 |
 
 They look correct today — real on-palette photos, not grey boxes. Bespoke art
-converts better. I can generate ~10 per turn, or you replace any of them
-yourself in **`/admin` → Catalog**.
+converts better. Roughly 10 per turn, or you upload your own in
+`/admin → Catalog`.
 
-### 6 real-photo slots on `/work`
+### 6 real photographs for `/work`
+
 Cutting · stitching floor · branding · quality check · finishing · your people.
 
-**These must be real photographs.** No AI factory images — that is the one
-place it would be dishonest, and buyers spot it. Shooting guide is on the page.
+**These must be real.** It is the one place AI would be dishonest, and buyers
+notice — two of your competitors use Unsplash factory shots and it shows. A
+phone in daylight beats all of it. Shooting guide is on the page.
+
+---
+
+## 🟠 Deployment — must be done before it goes public
+
+```bash
+ADMIN_PASSWORD=        # admin THROWS in production without this
+ADMIN_SALT=            # same
+NEXT_PUBLIC_SITE_URL=  # canonicals, sitemap, OG tags
+```
+
+Also `"url"` in `content/site.json` is still `https://example.com` — it feeds
+every canonical tag and the sitemap.
+
+**At least one notification channel**, or enquiries arrive silently:
+
+```bash
+OWNER_WHATSAPP + WHATSAPP_TOKEN + WHATSAPP_PHONE_ID
+OWNER_EMAIL + RESEND_API_KEY + NOTIFY_FROM
+N8N_WEBHOOK_URL + WEBHOOK_SECRET
+```
+
+If you use n8n, **verify the HMAC signature in your first node** — the site
+signs every request, but nothing stops a forged one if n8n does not check.
+Snippet is in `INTEGRATIONS.md`.
+
+**Clear the demo data:** 9 seeded enquiries are in the database.
+`npm run reset:db`
 
 ---
 
 ## 🟢 Technical — safe to defer, but know they exist
 
-| | Issue | When it matters |
-|---|---|---|
-| CSP allows `'unsafe-inline'` | Required by Next's bootstrap. Needs nonce-based CSP via middleware. | Before handling real customer data |
-| Rate limiter is in-process | Correct on one instance. Swap the `Map` for Redis. | Only if you scale past one server |
-| `public/uploads` is local disk | Will not persist on Vercel. Two `fs` calls to swap for S3/R2. | Only if you deploy serverless |
-| Admin is one shared password | Audit log records "admin", not a person. | When more than one person uses it |
-| `ADMIN_PASSWORD` / `ADMIN_SALT` unset | Login throws in production by design. | At deploy |
-| No CAPTCHA | Honeypot + rate limiting only. | Only if spam appears |
-
----
-
-## 🔵 Housekeeping
-
-**11 test RFQs in the database** — 9 seeded demo enquiries plus 2 I created to
-prove marketing attribution (`CA-2609-0010` Google Ads, `CA-2609-0011`
-Instagram).
-
-They make the dashboard, funnel and traffic-source charts look real. Clear
-them before launch with:
-
-```bash
-rm data/customapparel.db*   # then restart
-```
+| Issue | When it matters |
+|---|---|
+| CSP still allows `'unsafe-inline'` for scripts — Next's bootstrap needs it | Before handling real customer data. Needs nonce-based CSP via middleware. |
+| Rate limiter is in-process | Only if you run more than one instance |
+| `public/uploads` and `public/artwork` are local disk | Will not persist on Vercel. Two `fs` calls to swap for S3/R2. |
+| Admin is one shared password | Audit log records "admin", not a person. Fine until more than one of you uses it. |
+| No CAPTCHA | Honeypot + rate limiting only. Add Turnstile if spam appears. |
+| Logo is a raster PNG | Get the vector from whoever drew it before any print or signage |
 
 ---
 
 ## Suggested order
 
-1. **WhatsApp number** — unblocks every CTA on the site
-2. **Phone, email, address** — unblocks the footer and contact page
-3. **Real rates for one product** — turns the calculator from demo to tool
-4. **Shoot the 6 `/work` photos** — a phone in daylight beats stock
-5. Lead times and payment terms — closes the two open FAQs
-6. GSM ranges — completes the fabrics table
-7. The 42 subcategory images — I generate, or you upload
-8. `ADMIN_PASSWORD` + `ADMIN_SALT`, then clear the test data
+1. **WhatsApp number** — one line, unblocks every CTA on the site
+2. Phone, email, address
+3. **Real rates for one product**, then `configured: true`
+4. `ADMIN_PASSWORD` + `ADMIN_SALT`, and one notification channel
+5. Shoot the 6 `/work` photos
+6. Lead times and payment terms → closes both FAQs
+7. GSM ranges → completes the fabrics table
+8. `npm run reset:db`, set the real domain, deploy
+9. The 42 subcategory images — ongoing, not blocking
+
+Steps 1–4 are roughly an hour of your time and take the site from demo to
+usable.

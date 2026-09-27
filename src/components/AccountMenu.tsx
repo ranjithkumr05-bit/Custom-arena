@@ -120,7 +120,7 @@ export default function AccountMenu() {
                their orders — burying that behind the burger on the device most
                of them use is the wrong trade. Icon-only under 640px, icon plus
                label above it. */
-            className={`inline-flex min-h-[44px] shrink-0 items-center justify-center gap-2 rounded-md border px-2.5 text-[14.5px] font-semibold transition sm:px-3.5 ${
+            className={`inline-flex min-h-[44px] min-w-[44px] shrink-0 items-center justify-center gap-2 rounded-md border px-2.5 text-[14.5px] font-semibold transition sm:px-3.5 ${
               isOpen ? "border-navy-600 text-navy-800" : "border-sand-200 text-navy-800 hover:border-navy-600"
             }`}
             title="Sign in to see your orders"

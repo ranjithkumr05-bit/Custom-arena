@@ -28,7 +28,7 @@ const securityHeaders = [
 ];
 
 const nextConfig = {
-  allowedDevOrigins: ["*.e2b.app", "*.e2b.dev", "localhost", "127.0.0.1"],
+  allowedDevOrigins: ["*.e2b.app", "*.e2b.dev", "localhost", "127.0.0.1", "192.168.1.7"],
   poweredByHeader: false,
   images: {
     formats: ["image/avif", "image/webp"],
