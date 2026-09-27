@@ -1,0 +1,36 @@
+{
+  "name": "custom-apparel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3100",
+    "build": "next build",
+    "start": "next start -p 3100",
+    "lint": "next lint",
+    "setup": "npm ci && next build",
+    "seed": "node scripts/seed.mjs",
+    "reset:db": "node scripts/reset-db.mjs",
+    "check": "tsc --noEmit && next build"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "motion": "^13.4.4",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "sharp": "^0.35.4",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "latest",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

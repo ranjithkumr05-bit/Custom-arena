@@ -1,0 +1,92 @@
+{
+  "_comment": "CMS LAYER. Edit this file to change site-wide content. Fields with 'confirm': true render an amber marker in the UI and are excluded from SEO/structured data until confirmed.",
+  "name": "CustomWear",
+  "legalName": {
+    "value": "",
+    "confirm": true
+  },
+  "tagline": "Knitwear manufacturing, Tiruppur",
+  "shortDescription": "B2B knitwear manufacturing in Tiruppur. Corporate apparel, sportswear, campus wear, workwear and private label produced in our own unit — fabric sourcing to dispatch. Orders from 10 pieces.",
+  "url": "https://example.com",
+  "location": {
+    "city": "Tiruppur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "addressLine": {
+      "value": "",
+      "confirm": true
+    },
+    "pincode": {
+      "value": "",
+      "confirm": true
+    }
+  },
+  "contact": {
+    "whatsapp": {
+      "value": "910000000000",
+      "confirm": true
+    },
+    "phone": {
+      "value": "",
+      "confirm": true
+    },
+    "email": {
+      "value": "",
+      "confirm": true
+    },
+    "hours": {
+      "value": "",
+      "confirm": true
+    }
+  },
+  "business": {
+    "moq": 10,
+    "moqUnit": "pieces",
+    "fabricScope": "Knitted fabric only. No woven.",
+    "yearsTrading": {
+      "value": null,
+      "confirm": true
+    },
+    "dailyCapacity": {
+      "value": null,
+      "confirm": true
+    },
+    "teamSize": {
+      "value": null,
+      "confirm": true
+    },
+    "gstRegistered": {
+      "value": null,
+      "confirm": true
+    },
+    "sampleLeadDays": {
+      "value": null,
+      "confirm": true
+    },
+    "bulkLeadDays": {
+      "value": null,
+      "confirm": true
+    },
+    "paymentTerms": {
+      "value": "",
+      "confirm": true
+    },
+    "certifications": []
+  },
+  "inHouse": [
+    "Fabric sourcing",
+    "Cutting",
+    "Printing",
+    "Embroidery",
+    "Sublimation",
+    "Stitching",
+    "Checking",
+    "Ironing",
+    "Packing",
+    "Dispatch"
+  ],
+  "integrations": {
+    "n8nWebhookUrl": "",
+    "n8nComment": "Set N8N_WEBHOOK_URL in .env.local. Every RFQ is POSTed there as JSON."
+  }
+}

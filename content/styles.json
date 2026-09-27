@@ -1,0 +1,30 @@
+{
+  "_comment": "Neck styles, sleeves and fits. Offered across categories — a buyer picks the body style they want rather than being forced into whatever the category defaults to.",
+
+  "necks": [
+    { "slug": "round-neck", "label": "Round neck", "note": "The standard crew neck. Most common, most economical.", "popular": true },
+    { "slug": "polo", "label": "Polo collar", "note": "Collar and 2–3 button placket. Reads more formal.", "popular": true },
+    { "slug": "v-neck", "label": "V-neck", "note": "Softer neckline, often preferred for women's fits." },
+    { "slug": "henley", "label": "Henley", "note": "Buttoned placket without a collar." },
+    { "slug": "mandarin", "label": "Mandarin collar", "note": "Short stand collar, no lapel." },
+    { "slug": "hooded", "label": "Hooded", "note": "For sweatshirt and fleece bodies." }
+  ],
+
+  "sleeves": [
+    { "slug": "short", "label": "Short sleeve", "popular": true },
+    { "slug": "full", "label": "Full sleeve" },
+    { "slug": "three-quarter", "label": "Three-quarter / raglan" },
+    { "slug": "sleeveless", "label": "Sleeveless", "note": "Jerseys and vests." }
+  ],
+
+  "fits": [
+    { "slug": "regular", "label": "Regular fit", "note": "Standard straight body.", "popular": true },
+    { "slug": "slim", "label": "Slim fit", "note": "Tapered through the body." },
+    { "slug": "oversized", "label": "Oversized", "note": "Wider body, longer length." },
+    { "slug": "drop-shoulder", "label": "Drop shoulder", "note": "Shoulder seam sits below the natural shoulder." },
+    { "slug": "womens", "label": "Women's fit", "note": "Shaped body and adjusted sleeve." },
+    { "slug": "kids", "label": "Kids sizing", "note": "Scaled pattern for school and junior teams." }
+  ],
+
+  "note": "Any neck, sleeve and fit combination can be made to your requirement. If you need something not listed, describe it in your enquiry."
+}

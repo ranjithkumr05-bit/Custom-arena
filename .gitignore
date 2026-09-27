@@ -1,0 +1,55 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# build output
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# ───────────────────────────────────────────────────────────────
+# Runtime data. None of this belongs in version control, and some
+# of it would be a privacy problem in a public repository.
+# ───────────────────────────────────────────────────────────────
+
+# SQLite database — holds enquiries with buyer names and phone numbers.
+# All three files matter: WAL mode keeps most of the data in -wal, so
+# committing only the .db would publish a misleadingly empty file while
+# still leaking whatever had been checkpointed.
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Buyer-uploaded artwork and admin media. Other people's logos.
+public/uploads/*
+public/artwork/*
+!public/uploads/.gitkeep
+!public/artwork/.gitkeep
+
+# secrets
+.env
+.env.local
+.env*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# misc
+.vercel
+coverage/
+.cache/

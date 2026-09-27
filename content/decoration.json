@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "screen",
+    "name": "Screen print",
+    "how": "Ink is pushed through a fine mesh screen onto the fabric. One screen is prepared per colour in the design.",
+    "bestFor": "Bulk runs with a small number of flat colours",
+    "strengths": ["Lowest per-piece cost once quantity rises", "Very durable", "Strong, opaque colour on dark fabric"],
+    "limits": ["Setup cost per colour", "Not economical for small runs", "Poor fit for photographic artwork"],
+    "goodQty": "100 pieces and above"
+  },
+  {
+    "slug": "dtf",
+    "name": "DTF (direct to film)",
+    "how": "The design is printed onto a transfer film, coated with adhesive powder, then heat-pressed onto the garment.",
+    "bestFor": "Small runs and complex multi-colour artwork",
+    "strengths": ["No per-colour setup", "Unlimited colours and gradients", "Works on cotton and blends"],
+    "limits": ["Higher per-piece cost at volume", "Slight surface feel where ink sits", "Large solid areas can feel heavy"],
+    "goodQty": "10 to 300 pieces"
+  },
+  {
+    "slug": "dtg",
+    "name": "DTG (direct to garment)",
+    "how": "Ink is jetted straight into the fabric by a specialised printer, much like an inkjet printing onto cloth.",
+    "bestFor": "Photographic artwork where a soft hand feel matters",
+    "strengths": ["Photographic detail", "Very soft finish", "No setup cost"],
+    "limits": ["Slower per piece", "Works best on high-cotton fabric", "Dark garments need a pre-treat and white underbase"],
+    "goodQty": "10 to 150 pieces"
+  },
+  {
+    "slug": "embroidery",
+    "name": "Embroidery",
+    "how": "Artwork is digitised into a stitch file, then sewn into the fabric with thread.",
+    "bestFor": "Logos on polos, caps and workwear",
+    "strengths": ["Most durable option", "Reads as premium", "Unaffected by washing"],
+    "limits": ["Cannot reproduce gradients or fine text", "Cost rises with stitch count", "Adds weight and stiffness on light fabric"],
+    "goodQty": "Any quantity"
+  },
+  {
+    "slug": "sublimation",
+    "name": "Sublimation",
+    "how": "Under heat, dye converts to gas and bonds into polyester fibre, becoming part of the fabric itself.",
+    "bestFor": "Sports jerseys and full-surface designs",
+    "strengths": ["Cannot crack, peel or fade", "Edge-to-edge coverage", "Individual names and numbers cost nothing extra"],
+    "limits": ["Polyester only — will not work on cotton", "Cannot print white", "Whole panel must be printed before assembly"],
+    "goodQty": "10 pieces and above"
+  }
+]

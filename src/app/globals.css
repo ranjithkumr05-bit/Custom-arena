@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-900: #071528;
+  --color-navy-800: #0b1f3a;
+  --color-navy-700: #122d50;
+  --color-navy-600: #1b3d68;
+  --color-navy-400: #47638a;
+
+  --color-gold-500: #c8a24a;
+  --color-gold-400: #d9b967;
+  --color-gold-300: #e8d09a;
+  --color-gold-50: #faf4e6;
+
+  --color-sand-50: #faf9f6;
+  --color-sand-100: #f2f0ea;
+  --color-sand-200: #e5e2d8;
+
+  --color-ink-700: #33383f;
+  --color-ink-500: #5b6270;
+  --color-ink-400: #7d8494;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+
+/**
+ * Base element styles MUST live in @layer base.
+ *
+ * Tailwind v4 emits utilities inside @layer utilities, and in the CSS
+ * cascade an UNLAYERED rule beats a LAYERED one regardless of specificity.
+ * With these rules unlayered, `h1 { color: navy }` silently overrode
+ * `class="text-white"` — every heading on a dark background rendered navy
+ * on navy. Layering them restores normal specificity, so utilities win.
+ */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #fff;
+    color: var(--color-ink-700);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    color: var(--color-navy-800);
+    letter-spacing: -0.022em;
+    line-height: 1.14;
+    font-weight: 650;
+  }
+
+  *:focus-visible {
+    outline: 3px solid var(--color-gold-500);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+/* ---- kit motion ---- */
+@keyframes ca-fade      { from { opacity: 0 } to { opacity: 1 } }
+@keyframes ca-pop       { from { opacity: 0; transform: translateY(-8px) scale(.985) } to { opacity: 1; transform: none } }
+@keyframes ca-slide-up  { from { transform: translateY(100%) } to { transform: none } }
+@keyframes ca-rise      { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+@keyframes ca-toast-in  { from { opacity: 0; transform: translateX(16px) scale(.97) } to { opacity: 1; transform: none } }
+
+/* Skeleton shimmer. Static grey under prefers-reduced-motion (the global
+   reduced-motion block below neutralises the animation). */
+@keyframes ca-shimmer {
+  0%   { background-position: -180% 0; }
+  100% { background-position: 180% 0; }
+}
+.ca-shimmer {
+  background-image: linear-gradient(
+    90deg,
+    var(--color-sand-100) 0%,
+    var(--color-sand-50) 45%,
+    var(--color-sand-100) 90%
+  );
+  background-size: 220% 100%;
+  animation: ca-shimmer 1.5s ease-in-out infinite;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* number inputs without spinners */
+.no-spin::-webkit-outer-spin-button,
+.no-spin::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.no-spin { -moz-appearance: textfield; }

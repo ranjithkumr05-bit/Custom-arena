@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "single-jersey",
+    "name": "Single jersey",
+    "family": "Cotton knit",
+    "plainEnglish": "The standard t-shirt knit. Flat face, looped back, light and breathable.",
+    "usedFor": ["Round-neck tees", "Event shirts", "Inner wear"],
+    "takesPrint": "Very well — the smooth face suits screen, DTF and DTG.",
+    "gsmRange": { "value": "", "confirm": true }
+  },
+  {
+    "slug": "pique",
+    "name": "Pique",
+    "family": "Cotton knit",
+    "plainEnglish": "The textured waffle knit used for polos. Structured, holds its shape, breathes well.",
+    "usedFor": ["Corporate polos", "Work polos", "Club polos"],
+    "takesPrint": "Embroidery suits it best; the texture works against fine print detail.",
+    "gsmRange": { "value": "", "confirm": true }
+  },
+  {
+    "slug": "interlock",
+    "name": "Interlock",
+    "family": "Cotton knit",
+    "plainEnglish": "Double-knit construction. Smooth on both sides, heavier and more stable than single jersey.",
+    "usedFor": ["Premium tees", "Workwear", "Garments needing a clean print surface"],
+    "takesPrint": "Excellent — the dense, smooth face is the best cotton base for detailed print.",
+    "gsmRange": { "value": "", "confirm": true }
+  },
+  {
+    "slug": "rib",
+    "name": "Rib",
+    "family": "Cotton knit",
+    "plainEnglish": "Stretchy vertical-ribbed knit that recovers its shape. Used as trim rather than body fabric.",
+    "usedFor": ["Collars", "Cuffs", "Neck bands", "Waistbands"],
+    "takesPrint": "Not used as a print surface.",
+    "gsmRange": { "value": "", "confirm": true }
+  },
+  {
+    "slug": "fleece",
+    "name": "Fleece",
+    "family": "Winter knit",
+    "plainEnglish": "Brushed on the inside for warmth. The standard hoodie and sweatshirt fabric.",
+    "usedFor": ["Hoodies", "Sweatshirts", "Winter programmes"],
+    "takesPrint": "Good for bold artwork; brushing softens very fine detail.",
+    "gsmRange": { "value": "", "confirm": true }
+  },
+  {
+    "slug": "loop-knit",
+    "name": "Loop knit",
+    "family": "Winter knit",
+    "plainEnglish": "Unbrushed looped back. Lighter than fleece, cleaner surface, better for warmer climates.",
+    "usedFor": ["Lightweight hoodies", "Crew sweatshirts", "Campus merchandise"],
+    "takesPrint": "Better than fleece for detailed print.",
+    "gsmRange": { "value": "", "confirm": true }
+  },
+  {
+    "slug": "performance-poly",
+    "name": "Performance poly knit",
+    "family": "Synthetic knit",
+    "plainEnglish": "Polyester knit that moves moisture away from the skin. The base for sublimation.",
+    "usedFor": ["Sports jerseys", "Marathon tees", "Track sets"],
+    "takesPrint": "The only construction that accepts true sublimation — dye bonds into the fibre.",
+    "gsmRange": { "value": "", "confirm": true }
+  }
+]

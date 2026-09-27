@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What is your minimum order quantity?",
+    "a": "Ten pieces. The rate per piece varies with design and fabric — a 10-piece run costs more per piece than a 500-piece run, and we show you both so you can decide where your order sits.",
+    "confirm": false,
+    "aeo": true
+  },
+  {
+    "q": "Do you work with woven fabric?",
+    "a": "No. We work in knitted fabric only — single jersey, pique, interlock, rib, fleece, loop knit and performance polyester. Woven shirts and trousers are a different machine set and a different skill, and we would rather decline than subcontract the work.",
+    "confirm": false,
+    "aeo": true
+  },
+  {
+    "q": "Which branding method should I choose?",
+    "a": "Screen print for large runs with few flat colours. DTF for small runs or complex artwork. DTG for photographic designs needing a soft feel. Embroidery for logos on polos and workwear. Sublimation for sports jerseys, where it is the only method that will not crack or peel. Send the artwork and we will recommend one.",
+    "confirm": false,
+    "aeo": true
+  },
+  {
+    "q": "Can you match a specific brand colour?",
+    "a": "Share the colour reference and we will confirm what is achievable in the construction you have chosen before you commit. The same reference can read differently across single jersey, pique and polyester, so we verify on the actual fabric rather than assume.",
+    "confirm": false,
+    "aeo": true
+  },
+  {
+    "q": "Do you handle printing and embroidery in-house?",
+    "a": "Yes. Fabric sourcing, cutting, printing, embroidery, sublimation, stitching, checking, ironing, packing and dispatch all happen in our own unit. Nothing is sent to an outside vendor, which is why small orders do not sit waiting in someone else's queue.",
+    "confirm": false,
+    "aeo": true
+  },
+  {
+    "q": "What are your lead times?",
+    "a": "",
+    "confirm": true,
+    "aeo": false
+  },
+  {
+    "q": "What are your payment terms?",
+    "a": "",
+    "confirm": true,
+    "aeo": false
+  },
+  {
+    "q": "Can we visit the unit before ordering?",
+    "a": "Yes. We are in Tiruppur and visitors are welcome. Seeing the floor answers more questions in ten minutes than a website can in an hour.",
+    "confirm": false,
+    "aeo": true
+  },
+  {
+    "q": "How should I plan my size breakdown?",
+    "a": "Enter quantity per size rather than one total. A 60-piece order might be 10 small, 20 medium, 20 large and 10 extra large — that distribution affects fabric consumption and cutting, so quoting from a single total is always an approximation.",
+    "confirm": false,
+    "aeo": true
+  },
+  {
+    "q": "Do you supply to buyers outside Tamil Nadu?",
+    "a": "Yes. We dispatch across India. Delivery cost depends on destination and carton count, and is quoted separately from the garment rate so you can see both.",
+    "confirm": false,
+    "aeo": true
+  }
+]

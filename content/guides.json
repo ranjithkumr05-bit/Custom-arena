@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "gsm-explained",
+    "title": "GSM explained: how fabric weight changes a t-shirt",
+    "excerpt": "GSM is the single most useful number when specifying a knit garment — and the one most often quoted without context.",
+    "question": "What does GSM mean in t-shirt fabric?",
+    "answer": "GSM stands for grams per square metre and measures how much a fabric weighs for a given area. In knitted garments, a higher GSM generally means a denser, heavier, more opaque fabric that drapes less and lasts longer. It is a weight measurement, not a direct quality measurement.",
+    "updated": "2026-09-27",
+    "sections": [
+      {
+        "h": "What the number actually measures",
+        "p": "GSM is grams per square metre. Cut one square metre of the fabric, weigh it, and that weight in grams is the GSM. It tells you about density and weight. It does not tell you about yarn quality, knitting consistency, shrinkage behaviour or how the fabric will feel after ten washes."
+      },
+      {
+        "h": "Why two fabrics at the same GSM feel different",
+        "p": "Weight and quality are separate. A loosely knitted fabric made from thicker, coarser yarn can weigh the same as a tightly knitted fabric made from finer combed yarn. The second will feel smoother, hold its shape better and pill less. This is why asking only for a GSM number, without discussing yarn and knit, leaves most of the decision unmade."
+      },
+      {
+        "h": "How weight affects the finished garment",
+        "p": "Lighter knits drape more, breathe more and cost less in fabric, but show what is underneath and wear out sooner. Heavier knits hold structure, feel substantial, print more cleanly and last longer, but cost more and feel warm in humid conditions. Neither is better in the abstract — it depends on whether the garment is a summer event tee or a staff garment washed daily."
+      },
+      {
+        "h": "What to specify instead of a number alone",
+        "p": "Describe the use rather than only quoting a figure. Daily staff wear in a hot workshop, a one-day conference tee, a premium campus hoodie and a sports jersey all point to different constructions. A manufacturer who understands the use can propose a weight; a manufacturer given only a number can only supply that number."
+      }
+    ],
+    "faq": [
+      { "q": "Is higher GSM always better?", "a": "No. Higher GSM means heavier and usually more durable, but it also means warmer and more expensive. For a summer event tee in India, a lighter knit is often the better garment." },
+      { "q": "Does GSM change after washing?", "a": "Measured GSM can shift slightly as fabric relaxes and shrinks after the first wash. This is normal and is why pre-shrunk or compacted fabric is specified where dimensional stability matters." },
+      { "q": "Can I compare GSM across cotton and polyester?", "a": "Not directly. Polyester fibre has a different density from cotton, so a polyester knit at the same GSM will feel and behave differently from a cotton knit." }
+    ]
+  },
+  {
+    "slug": "printing-methods-compared",
+    "title": "Screen, DTF, DTG, embroidery or sublimation: choosing a branding method",
+    "excerpt": "Five ways to put a logo on a knit garment. The right one depends on artwork, quantity and fabric — not on which is newest.",
+    "question": "Which printing method is best for custom t-shirts?",
+    "answer": "Screen printing is most economical for large runs with few flat colours. DTF suits small runs and complex artwork with no setup cost. DTG gives photographic detail with a soft feel on cotton. Embroidery is the most durable and looks most premium on polos. Sublimation is the only method that permanently bonds into polyester and cannot crack or peel, making it standard for sports jerseys.",
+    "updated": "2026-09-27",
+    "sections": [
+      {
+        "h": "The three questions that decide it",
+        "p": "How many pieces, how many colours in the artwork, and what fabric. A two-colour logo on 500 cotton tees points to screen printing. The same logo on 15 tees points to DTF, because the screen setup cost would dominate. A photographic design points to DTG. A full-surface sports design on polyester points to sublimation, and nothing else will do."
+      },
+      {
+        "h": "Where setup cost changes the answer",
+        "p": "Screen printing carries a preparation cost per colour, paid once regardless of quantity. Across 1,000 pieces that cost disappears into the per-piece rate. Across 20 pieces it dominates it. DTF and DTG have effectively no setup, which is exactly why they took over small-batch work."
+      },
+      {
+        "h": "Durability, honestly compared",
+        "p": "Embroidery outlasts everything because it is thread, not a coating. Sublimation is next, because the dye is inside the fibre rather than on top of it. A well-cured screen print lasts years. DTF sits behind that. DTG is the least abrasion-resistant of the five, though on a garment worn occasionally the difference rarely matters."
+      },
+      {
+        "h": "The constraint people discover too late",
+        "p": "Sublimation does not work on cotton, and it cannot print white. The base fabric must be polyester, and anywhere the design is white, the fabric itself must be white. Designs are routinely redrawn after this is discovered — checking it before artwork is approved saves a round of revisions."
+      }
+    ],
+    "faq": [
+      { "q": "Which method is cheapest?", "a": "It depends entirely on quantity. Screen printing is cheapest per piece at volume. For orders under roughly 50 pieces, DTF is usually cheaper because there is no per-colour setup to absorb." },
+      { "q": "Which lasts longest in the wash?", "a": "Embroidery, then sublimation. Both survive the garment rather than sitting on its surface." },
+      { "q": "Can I print photographs on a t-shirt?", "a": "Yes — DTG for cotton with a soft finish, DTF for a wider range of fabrics, or sublimation on polyester for full coverage." },
+      { "q": "Why can't sublimation print white?", "a": "Sublimation dye is translucent and takes the colour of whatever sits beneath it. There is no white dye, so white areas in a design must be unprinted white fabric." }
+    ]
+  },
+  {
+    "slug": "size-breakdown-bulk-order",
+    "title": "How to plan a size breakdown for a bulk apparel order",
+    "excerpt": "Ordering 100 pieces is not a specification. Ordering 15 S, 30 M, 30 L, 20 XL, 5 2XL is.",
+    "question": "How do I decide the size breakdown for a bulk t-shirt order?",
+    "answer": "Collect actual sizes from the people who will wear the garments wherever possible. Where that is not possible, use a distribution weighted toward the middle sizes, typically with medium and large together accounting for around half to two-thirds of the order. Always order a small buffer in the middle sizes, since those are the ones that run short.",
+    "updated": "2026-09-27",
+    "sections": [
+      {
+        "h": "Why a single total is not enough",
+        "p": "Fabric consumption differs by size, so cutting is planned around the distribution, not the total. A 100-piece order skewed to 2XL consumes measurably more fabric than one skewed to small. A quote against a bare total is always an estimate that has to be revised once the real breakdown arrives."
+      },
+      {
+        "h": "Collect real sizes when you can",
+        "p": "For staff, teams and schools, the sizes are knowable. A short form circulated before ordering removes the guesswork entirely and prevents the most common failure, which is having pieces left over in sizes nobody needed while the sizes people wanted ran out."
+      },
+      {
+        "h": "When you have to estimate",
+        "p": "For open events, weight the distribution toward the middle. Medium and large usually account for the bulk of an adult order, with small and extra large filling most of the rest. Adjust for your actual audience — a corporate office, a college fest and a factory floor do not share a size curve."
+      },
+      {
+        "h": "Build in a buffer where it matters",
+        "p": "Add a small buffer in the middle sizes rather than spreading it evenly. Those are the sizes that run short, the sizes people swap into, and the sizes most likely to be needed by a late joiner."
+      },
+      {
+        "h": "Keep the breakdown for the reorder",
+        "p": "If the order repeats annually, last year's breakdown adjusted for headcount is a far better starting point than estimating again. Record what was ordered and what was left over."
+      }
+    ],
+    "faq": [
+      { "q": "What is a typical size distribution for an Indian adult order?", "a": "Medium and large usually dominate, together accounting for roughly half to two-thirds of a mixed adult order. The exact curve depends heavily on the specific group, so collect real sizes where you can." },
+      { "q": "Should I order extra pieces?", "a": "A small buffer concentrated in the middle sizes is more useful than extras spread evenly, because those are the sizes that run short first." },
+      { "q": "Do different garments need different breakdowns?", "a": "Yes. Oversized and drop-shoulder fits run larger than regular fits, so the same group will need a different curve for each." }
+    ]
+  },
+  {
+    "slug": "moq-and-per-piece-rates",
+    "title": "Why the per-piece rate changes with quantity",
+    "excerpt": "The same t-shirt costs more at 20 pieces than at 500. Here is exactly where that difference comes from.",
+    "question": "Why do apparel manufacturers charge more per piece for small orders?",
+    "answer": "Several costs in garment production are fixed per order rather than per piece — fabric minimums, screen or plate setup, pattern preparation, machine changeover and quality checking. On a small order those fixed costs are divided across fewer pieces, so each piece carries more of them. The garment is identical; the share of overhead it absorbs is not.",
+    "updated": "2026-09-27",
+    "sections": [
+      {
+        "h": "Costs that do not shrink with the order",
+        "p": "Fabric is bought and dyed in minimum lots. A screen has to be prepared whether it prints twenty pieces or two thousand. A pattern is made once. The line is set up, run and changed over once. These costs are fixed per order, and a small order divides them across fewer pieces."
+      },
+      {
+        "h": "Why fabric minimums matter most",
+        "p": "This is usually the largest single factor. Dyeing a specific shade has a minimum lot size, and if your order needs less than that minimum, the balance is either absorbed into your rate or left as stock. This is why an unusual colour at low quantity costs disproportionately more than a standard shade."
+      },
+      {
+        "h": "How to reduce the rate without increasing the order",
+        "p": "Choose a fabric and colour already being run. Keep to one or two print colours if using screen. Avoid a wide size range across a small quantity. Combine several small requirements into one order rather than placing them separately across the year."
+      },
+      {
+        "h": "What a low minimum actually signals",
+        "p": "A unit that genuinely accepts 10-piece orders is either working with in-house processes across every stage, or absorbing the setup elsewhere. Where every stage happens under one roof, a small order does not have to wait in an external vendor's queue — which is what usually makes small orders uneconomical to accept."
+      }
+    ],
+    "faq": [
+      { "q": "What is MOQ?", "a": "Minimum order quantity — the smallest order a manufacturer will accept, usually stated per style or per colour rather than in total." },
+      { "q": "Is MOQ per style or per order?", "a": "Usually per style, and often per colour within a style, since each combination triggers its own fabric and setup requirement. Always confirm which definition is being used." },
+      { "q": "Can I mix sizes within the minimum?", "a": "Generally yes. Sizes within one style and colour normally count toward the same minimum, because they are cut from the same fabric lot." }
+    ]
+  },
+  {
+    "slug": "knit-fabric-types",
+    "title": "Knit fabric types: single jersey, pique, interlock, rib and fleece",
+    "excerpt": "Five constructions cover almost every knitted garment. Knowing which is which makes specifying an order far easier.",
+    "question": "What are the main types of knit fabric used in t-shirts?",
+    "answer": "Single jersey is the standard lightweight t-shirt knit. Pique is the textured knit used for polo shirts. Interlock is a heavier double-knit that is smooth on both faces. Rib is a stretchy construction used for collars and cuffs. Fleece and loop knit are the heavier fabrics used for hoodies and sweatshirts.",
+    "updated": "2026-09-27",
+    "sections": [
+      {
+        "h": "Single jersey",
+        "p": "The default t-shirt fabric. Flat on the face, looped on the back, light and breathable. It takes print well and is the most economical construction, which is why it dominates event and promotional work."
+      },
+      {
+        "h": "Pique",
+        "p": "Recognisable by its small waffle texture. Structured enough to hold a collar, breathable, and the standard choice for polo shirts. The texture means embroidery suits it better than fine print detail does."
+      },
+      {
+        "h": "Interlock",
+        "p": "A double knit, smooth on both sides, heavier and more stable than single jersey. It resists curling at the edges, holds its shape and offers the cleanest cotton surface for detailed printing."
+      },
+      {
+        "h": "Rib",
+        "p": "Vertical ribs that stretch across the width and recover. Used almost entirely as trim — collars, cuffs, neck bands and waistbands — rather than as body fabric."
+      },
+      {
+        "h": "Fleece and loop knit",
+        "p": "The winter constructions. Fleece is brushed on the inside for warmth and softness. Loop knit leaves the loops unbrushed, making it lighter, cleaner to print on and better suited to warmer climates."
+      },
+      {
+        "h": "Performance polyester",
+        "p": "Not a cotton construction, but essential to know. Polyester knit moves moisture away from the skin and is the only base that accepts true sublimation, which is why sports jerseys are made from it rather than cotton."
+      }
+    ],
+    "faq": [
+      { "q": "Which knit is best for printing?", "a": "Interlock offers the smoothest, most stable cotton surface for detailed print. Single jersey prints well and costs less." },
+      { "q": "What fabric are polo shirts made from?", "a": "Pique, in most cases. Its texture and structure hold a collar and placket better than a flat jersey would." },
+      { "q": "What is the difference between fleece and loop knit?", "a": "Fleece is brushed inside for warmth and softness. Loop knit leaves the loops intact, making it lighter and giving a cleaner print surface." }
+    ]
+  }
+]

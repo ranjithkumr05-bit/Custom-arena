@@ -1,0 +1,48 @@
+[
+  {
+    "n": "01",
+    "slug": "fabric-sourcing",
+    "title": "Fabric sourcing",
+    "short": "Knit fabric sourced and inspected against your construction, GSM and colour.",
+    "detail": "We source knit fabric against the specification agreed at quotation. Fabric is checked for shade consistency across the lot before cutting begins, because a shade variation found after cutting cannot be undone."
+  },
+  {
+    "n": "02",
+    "slug": "cutting",
+    "title": "Cutting",
+    "short": "Pattern laid and cut to the approved size set.",
+    "detail": "The size breakdown you supply drives the cutting plan directly. Laying the full size set together is what keeps consumption efficient on smaller runs."
+  },
+  {
+    "n": "03",
+    "slug": "branding",
+    "title": "Branding",
+    "short": "Your artwork applied by whichever method suits it.",
+    "detail": "This is a fork in the process, not a queue. A garment takes one method — occasionally two, such as an embroidered chest with a printed back — chosen from the artwork, the quantity and the fabric. Every method below runs in our own unit, which is why a small order does not sit waiting in an outside vendor's queue.",
+    "branch": true,
+    "branchNote": "One of these per garment — not all of them",
+    "methods": ["screen", "dtf", "dtg", "embroidery", "sublimation"],
+    "timing": "Sublimation prints the fabric before assembly. Screen and embroidery run on cut panels or finished garments. DTF and DTG are applied to the finished garment."
+  },
+  {
+    "n": "04",
+    "slug": "stitching",
+    "title": "Stitching",
+    "short": "Assembly on our own line, with your labels and tags placed.",
+    "detail": "Assembly happens on our line, not a subcontractor's. Neck labels, care tags and size tags are attached during assembly to your placement instruction."
+  },
+  {
+    "n": "05",
+    "slug": "checking-ironing",
+    "title": "Checking & ironing",
+    "short": "Piece-by-piece inspection, measurement check, pressing and finishing.",
+    "detail": "Every piece is inspected, not a sample of the lot. Measurements are checked against the approved spec, loose threads removed, then pressed."
+  },
+  {
+    "n": "06",
+    "slug": "packing-dispatch",
+    "title": "Packing & dispatch",
+    "short": "Folded and packed to your specification, then dispatched.",
+    "detail": "Folding, bagging and carton marking follow your packing instruction. Size ratio per carton can be set to how you intend to distribute the goods."
+  }
+]

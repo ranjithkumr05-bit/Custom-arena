@@ -1,0 +1,689 @@
+[
+  {
+    "slug": "corporate-office",
+    "title": "Corporate & Office",
+    "nav": "Corporate",
+    "hero": "/categories/corporate-office.jpg",
+    "heroAlt": "Office team wearing matching navy branded polo shirts",
+    "summary": "Polos and tees for offices, showrooms and field teams, branded to your identity.",
+    "intro": "Corporate apparel has to survive daily wear, repeated washing and being seen next to your logo. We produce polos and round-neck tees in knitted cotton, with your branding applied by embroidery or print depending on the artwork.",
+    "buyers": [
+      "Companies and corporates",
+      "Showrooms and retail chains",
+      "Field and service teams",
+      "Corporate gifting buyers"
+    ],
+    "constructions": [
+      "pique",
+      "single-jersey",
+      "interlock"
+    ],
+    "decoration": [
+      "embroidery",
+      "screen",
+      "dtf"
+    ],
+    "defaultProduct": "polo",
+    "considerations": [
+      "Brand colour matching is confirmed on fabric before bulk, not after.",
+      "Embroidery reads as more premium on pique than print does.",
+      "Size curves for mixed office teams usually skew larger than event runs."
+    ],
+    "seoTitle": "Corporate T-Shirt & Polo Manufacturer in Tiruppur | From 10 Pieces",
+    "seoDescription": "Custom corporate polos and t-shirts manufactured in Tiruppur. Logo embroidery and printing, brand colour matching, orders from 10 pieces. Direct from the unit.",
+    "subcategories": [
+      {
+        "slug": "corporate-polo-tshirts",
+        "title": "Corporate Polo T-Shirts",
+        "image": "/categories/sub/corporate-polo.jpg",
+        "blurb": "Pique polos with embroidered logo. The default for client-facing teams.",
+        "product": "polo"
+      },
+      {
+        "slug": "corporate-tshirts",
+        "title": "Corporate T-Shirts",
+        "image": "/categories/sub/corporate-tee.jpg",
+        "blurb": "Round-neck cotton tees for everyday office and casual-Friday wear.",
+        "product": "tee"
+      },
+      {
+        "slug": "executive-management-apparel",
+        "title": "Executive & Management",
+        "image": "/categories/sub/corporate-polo.jpg",
+        "blurb": "Heavier pique, tipped collars and finer embroidery for senior teams.",
+        "product": "polo",
+        "imagePending": true
+      },
+      {
+        "slug": "employee-staff-apparel",
+        "title": "Employee & Staff Apparel",
+        "image": "/categories/sub/corporate-tee.jpg",
+        "blurb": "Hard-wearing everyday tees and polos for larger headcounts.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "corporate-event-apparel",
+        "title": "Corporate Event Apparel",
+        "image": "/categories/corporate-office.jpg",
+        "blurb": "Short runs for conferences, launches, offsites and exhibition stands.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "branded-office-apparel",
+        "title": "Branded Office Apparel",
+        "image": "/categories/corporate-office.jpg",
+        "blurb": "A consistent set across departments, held to one approved specification.",
+        "product": "polo",
+        "imagePending": true
+      }
+    ],
+    "heading": "Corporate and office t-shirts"
+  },
+  {
+    "slug": "sportswear-team-jerseys",
+    "title": "Sports Jerseys",
+    "nav": "Jerseys",
+    "hero": "/categories/sportswear.jpg",
+    "heroAlt": "Sports team in matching navy and gold sublimated jerseys",
+    "summary": "Sublimated jerseys and sets for clubs, tournaments and academies.",
+    "intro": "Sublimation bonds dye into polyester fibre, so the design cannot crack, peel or fade the way a surface print eventually will. That makes it the right method for jerseys carrying full-surface artwork, names and numbers.",
+    "buyers": [
+      "Sports clubs and academies",
+      "Tournament organisers",
+      "Schools and colleges",
+      "Corporate sports events"
+    ],
+    "constructions": [
+      "performance-poly",
+      "interlock"
+    ],
+    "decoration": [
+      "sublimation",
+      "dtf"
+    ],
+    "defaultProduct": "jersey",
+    "considerations": [
+      "Individual names and numbers do not add a per-piece plate cost under sublimation.",
+      "Full-surface designs need artwork supplied as vector or at high resolution.",
+      "Team orders are usually 11–40 pieces, which is why our minimum is 10."
+    ],
+    "seoTitle": "Sports Jersey Manufacturer in Tiruppur | Sublimation, From 10 Pieces",
+    "seoDescription": "Custom sublimated sports jerseys and team sets manufactured in Tiruppur. Names, numbers and full-surface designs. Minimum 10 pieces. Direct from the unit.",
+    "subcategories": [
+      {
+        "slug": "cricket-jerseys",
+        "title": "Cricket Jerseys",
+        "image": "/categories/sub/cricket-jersey.jpg",
+        "blurb": "Collared sublimated jerseys with squad names and numbers. Whites also made.",
+        "product": "jersey"
+      },
+      {
+        "slug": "football-jerseys",
+        "title": "Football Jerseys",
+        "image": "/categories/sub/football-jersey.jpg",
+        "blurb": "Lightweight performance knit with contrast panels and number sets.",
+        "product": "jersey"
+      },
+      {
+        "slug": "kabaddi-jerseys",
+        "title": "Kabaddi Jerseys",
+        "image": "/categories/sub/kabaddi-jersey.jpg",
+        "blurb": "Sleeveless sets built to take grip and abrasion.",
+        "product": "jersey"
+      },
+      {
+        "slug": "volleyball-jerseys",
+        "title": "Volleyball Jerseys",
+        "image": "/categories/sub/volleyball-jersey.jpg",
+        "blurb": "Round-neck jerseys with numbers front and back.",
+        "product": "jersey"
+      },
+      {
+        "slug": "sports-training-tshirts",
+        "title": "Sports & Training T-Shirts",
+        "image": "/categories/sub/training-tee.jpg",
+        "blurb": "Moisture-moving polyester tees for practice, camps and warm-ups.",
+        "product": "jersey"
+      }
+    ],
+    "heading": "Sports jerseys and team kits"
+  },
+  {
+    "slug": "school-college",
+    "title": "School Uniform",
+    "nav": "School",
+    "hero": "/categories/school-uniform.jpg",
+    "heroAlt": "School students wearing matching navy school t-shirts",
+    "summary": "Uniform t-shirts, house colours, sports day and campus event runs.",
+    "intro": "Campus orders repeat every year, and the shade has to match last year's batch. We record the fabric and colour reference against your order so a reorder starts from the confirmed spec rather than from scratch.",
+    "buyers": [
+      "Schools",
+      "Colleges and universities",
+      "Departments and student bodies",
+      "Alumni associations"
+    ],
+    "constructions": [
+      "single-jersey",
+      "interlock",
+      "performance-poly"
+    ],
+    "decoration": [
+      "screen",
+      "dtf",
+      "sublimation",
+      "embroidery"
+    ],
+    "defaultProduct": "tee",
+    "considerations": [
+      "Annual reorders are matched against the previously approved colour reference.",
+      "Wide size ranges are normal — kids sizing is available alongside adult.",
+      "Order timing matters: campus demand concentrates ahead of term start and sports week."
+    ],
+    "seoTitle": "School Uniform T-Shirt Manufacturer in Tiruppur | Bulk & Small Runs",
+    "seoDescription": "School uniform t-shirts manufactured in Tiruppur. House colours, sports day tees, department and fest shirts. Orders from 10 pieces, colour repeatable year on year.",
+    "subcategories": [
+      {
+        "slug": "school-polo-tshirts",
+        "title": "School Polo T-Shirts",
+        "image": "/categories/school-college.jpg",
+        "blurb": "Pique polos in house or school colours, embroidered crest.",
+        "product": "polo",
+        "imagePending": true
+      },
+      {
+        "slug": "school-house-tshirts",
+        "title": "School House T-Shirts",
+        "image": "/categories/school-college.jpg",
+        "blurb": "One style across four or more house colours, matched year to year.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "school-sports-tshirts",
+        "title": "School Sports T-Shirts",
+        "image": "/categories/sub/training-tee.jpg",
+        "blurb": "Breathable tees for sports day and inter-house meets.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "school-activity-tshirts",
+        "title": "School Activity T-Shirts",
+        "image": "/categories/school-college.jpg",
+        "blurb": "Excursions, science fairs, NSS camps and club activities.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "college-department-tshirts",
+        "title": "College Department",
+        "image": "/categories/school-college.jpg",
+        "blurb": "Per-department colours and artwork, produced as one combined order.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "college-event-tshirts",
+        "title": "College Event T-Shirts",
+        "image": "/categories/school-college.jpg",
+        "blurb": "Culturals, symposiums, farewells and fest merchandise.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "college-team-tshirts",
+        "title": "College Team T-Shirts",
+        "image": "/categories/sub/volleyball-jersey.jpg",
+        "blurb": "Inter-college team kit with names and numbers.",
+        "product": "jersey",
+        "imagePending": true
+      }
+    ],
+    "heading": "School uniform t-shirts",
+    "notMade": "We make knitted uniform t-shirts and polos. We do not make woven shirts, trousers, pinafores, belts, ties or shoes."
+  },
+  {
+    "slug": "workwear-staff",
+    "title": "Staff & Workwear",
+    "nav": "Staff",
+    "hero": "/categories/workwear.jpg",
+    "heroAlt": "Workshop team wearing matching navy heavyweight work t-shirts",
+    "summary": "Denser knits built for daily wear and repeated industrial washing.",
+    "intro": "Staff garments fail at the seams and the collar long before the fabric wears out. Workwear knits use heavier constructions and reinforced assembly so the garment still looks presentable after months of daily use.",
+    "buyers": [
+      "Factories and warehouses",
+      "Kitchens and food service",
+      "Facility and housekeeping teams",
+      "Logistics and delivery operations"
+    ],
+    "constructions": [
+      "interlock",
+      "pique",
+      "single-jersey"
+    ],
+    "decoration": [
+      "embroidery",
+      "screen"
+    ],
+    "defaultProduct": "workwear",
+    "considerations": [
+      "Heavier constructions hold shape better through industrial laundering.",
+      "Embroidered branding outlasts print in high-abrasion environments.",
+      "Darker shades hide process soiling in production environments."
+    ],
+    "notMade": "We make cotton knit work t-shirts and polos. We do not make high-visibility clothing, reflective vests or certified protective equipment.",
+    "seoTitle": "Staff & Workwear T-Shirt Manufacturer in Tiruppur | Durable Knits",
+    "seoDescription": "Custom staff and workwear t-shirts manufactured in Tiruppur. Heavyweight knits, reinforced assembly, embroidered branding. Orders from 10 pieces.",
+    "subcategories": [
+      {
+        "slug": "construction-civil-work",
+        "title": "Construction & Civil Work",
+        "image": "/categories/workwear.jpg",
+        "blurb": "Heavyweight cotton tees for site teams. Not protective equipment.",
+        "product": "workwear",
+        "imagePending": true
+      },
+      {
+        "slug": "industrial-factory",
+        "title": "Industrial & Factory",
+        "image": "/categories/sub/industrial-factory.jpg",
+        "blurb": "Dense knits that survive daily wear and hot-wash laundering.",
+        "product": "workwear"
+      },
+      {
+        "slug": "mechanics-workshop",
+        "title": "Mechanics & Workshop",
+        "image": "/categories/sub/industrial-factory.jpg",
+        "blurb": "Darker shades that hide grease, reinforced shoulder and neck seams.",
+        "product": "workwear",
+        "imagePending": true
+      },
+      {
+        "slug": "maintenance-technician",
+        "title": "Maintenance & Technician",
+        "image": "/categories/workwear.jpg",
+        "blurb": "Polos with embroidered name and role for field-visible teams.",
+        "product": "polo",
+        "imagePending": true
+      },
+      {
+        "slug": "hospitality-staff",
+        "title": "Hospitality Staff",
+        "image": "/categories/sub/hospitality-staff.jpg",
+        "blurb": "Presentable pique polos for restaurant, hotel and café floors.",
+        "product": "polo"
+      },
+      {
+        "slug": "housekeeping-staff",
+        "title": "Housekeeping Staff",
+        "image": "/categories/sub/hospitality-staff.jpg",
+        "blurb": "Comfortable, washable knits for facility and cleaning teams.",
+        "product": "workwear",
+        "imagePending": true
+      },
+      {
+        "slug": "general-staff-service",
+        "title": "General Staff & Service",
+        "image": "/categories/workwear.jpg",
+        "blurb": "A single spec issued across mixed roles and multiple sites.",
+        "product": "workwear",
+        "imagePending": true
+      }
+    ],
+    "heading": "Staff and workwear t-shirts"
+  },
+  {
+    "slug": "retail-store",
+    "title": "Shop & Showroom",
+    "nav": "Shop",
+    "hero": "/categories/retail-store.jpg",
+    "heroAlt": "Retail store staff wearing matching navy branded polo shirts",
+    "summary": "Floor-facing apparel for stores, showrooms and promotions.",
+    "intro": "Retail apparel is worn in front of your customer all day, so it has to stay presentable through a full shift and look identical across every person on the floor. Consistency between the first run and the replenishment matters more here than anywhere else.",
+    "buyers": [
+      "Retail stores and chains",
+      "Supermarkets",
+      "Showrooms",
+      "Malls and promotional teams"
+    ],
+    "constructions": [
+      "pique",
+      "single-jersey",
+      "interlock"
+    ],
+    "decoration": [
+      "embroidery",
+      "screen",
+      "dtf"
+    ],
+    "defaultProduct": "polo",
+    "considerations": [
+      "Approved spec is held against the style so replenishment matches.",
+      "Name or role embroidery can be added per person within the same run.",
+      "Size ratio per carton can be set to your store-wise distribution."
+    ],
+    "seoTitle": "Retail & Store Staff Apparel Manufacturer in Tiruppur",
+    "seoDescription": "Branded polos and t-shirts for retail stores, supermarkets, showrooms and promotions. Manufactured in Tiruppur, consistent across repeat runs, from 10 pieces.",
+    "subcategories": [
+      {
+        "slug": "retail-store-apparel",
+        "title": "Retail Store Apparel",
+        "image": "/categories/retail-store.jpg",
+        "blurb": "Floor staff polos held to one spec across every branch.",
+        "product": "polo",
+        "imagePending": true
+      },
+      {
+        "slug": "supermarket-staff",
+        "title": "Supermarket Staff",
+        "image": "/categories/retail-store.jpg",
+        "blurb": "High-turnover tees and polos for large floor headcounts.",
+        "product": "polo",
+        "imagePending": true
+      },
+      {
+        "slug": "showroom-staff",
+        "title": "Showroom Staff",
+        "image": "/categories/sub/corporate-polo.jpg",
+        "blurb": "Premium pique with fine embroidery for high-value showrooms.",
+        "product": "polo",
+        "imagePending": true
+      },
+      {
+        "slug": "shopping-mall-staff",
+        "title": "Shopping Mall Staff",
+        "image": "/categories/retail-store.jpg",
+        "blurb": "One identity issued across concessions and service points.",
+        "product": "polo",
+        "imagePending": true
+      },
+      {
+        "slug": "sales-promotion",
+        "title": "Sales & Promotion",
+        "image": "/categories/sub/corporate-tee.jpg",
+        "blurb": "Short campaign runs with bold printed artwork.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "customer-service",
+        "title": "Customer Service",
+        "image": "/categories/sub/corporate-polo.jpg",
+        "blurb": "Clearly identifiable apparel with name and role branding.",
+        "product": "polo",
+        "imagePending": true
+      },
+      {
+        "slug": "custom-branded-store",
+        "title": "Custom-Branded Store",
+        "image": "/categories/retail-store.jpg",
+        "blurb": "Your own brand on the garment, including neck labels.",
+        "product": "polo",
+        "imagePending": true
+      }
+    ],
+    "heading": "Shop and showroom staff t-shirts"
+  },
+  {
+    "slug": "hoodies-sweatshirts",
+    "title": "Hoodies",
+    "nav": "Hoodies",
+    "hero": "/categories/hoodies-sweatshirts.jpg",
+    "heroAlt": "Group wearing matching navy branded hoodies",
+    "summary": "Fleece and loop-knit pullovers for winter programmes and campus merchandise.",
+    "intro": "Hoodies use more fabric than any other knit garment and involve more assembly — hood, pocket, drawcord, ribbing. That is reflected in both the rate and the timeline, and we would rather set that expectation upfront.",
+    "buyers": [
+      "Campus merchandise buyers",
+      "Brands and labels",
+      "Corporate winter programmes",
+      "Event organisers"
+    ],
+    "constructions": [
+      "fleece",
+      "loop-knit"
+    ],
+    "decoration": [
+      "embroidery",
+      "dtf",
+      "screen"
+    ],
+    "defaultProduct": "hoodie",
+    "considerations": [
+      "Fabric consumption is roughly double a standard tee.",
+      "Loop knit takes print more cleanly; brushed fleece feels warmer.",
+      "Drawcord, eyelet and ribbing choices affect both cost and finish."
+    ],
+    "seoTitle": "Custom Hoodie & Sweatshirt Manufacturer in Tiruppur | Small Batch",
+    "seoDescription": "Custom hoodies and sweatshirts manufactured in Tiruppur. Fleece and loop knit, embroidery and print, from 10 pieces. Direct from the unit.",
+    "subcategories": [
+      {
+        "slug": "pullover-hoodies",
+        "title": "Pullover Hoodies",
+        "image": "/categories/hoodies-sweatshirts.jpg",
+        "blurb": "The standard hood, kangaroo pocket and ribbed cuffs.",
+        "product": "hoodie",
+        "imagePending": true
+      },
+      {
+        "slug": "zip-up-hoodies",
+        "title": "Zip-Up Hoodies",
+        "image": "/categories/hoodies-sweatshirts.jpg",
+        "blurb": "Full-length zip, split pockets, easier to wear over a shirt.",
+        "product": "hoodie",
+        "imagePending": true
+      },
+      {
+        "slug": "custom-printed-hoodies",
+        "title": "Custom Printed Hoodies",
+        "image": "/categories/hoodies-sweatshirts.jpg",
+        "blurb": "Large front or back artwork on loop knit, which prints cleaner than fleece.",
+        "product": "hoodie",
+        "imagePending": true
+      },
+      {
+        "slug": "embroidered-hoodies",
+        "title": "Embroidered Hoodies",
+        "image": "/categories/hoodies-sweatshirts.jpg",
+        "blurb": "Thread branding on chest or sleeve for a more premium finish.",
+        "product": "hoodie",
+        "imagePending": true
+      },
+      {
+        "slug": "college-event-hoodies",
+        "title": "College & Event Hoodies",
+        "image": "/categories/hoodies-sweatshirts.jpg",
+        "blurb": "Batch and farewell hoodies, often with names on the back.",
+        "product": "hoodie",
+        "imagePending": true
+      },
+      {
+        "slug": "custom-sweatshirts",
+        "title": "Custom Sweatshirts",
+        "image": "/categories/hoodies-sweatshirts.jpg",
+        "blurb": "Crew-neck bodies without a hood. Lighter and less expensive.",
+        "product": "hoodie",
+        "imagePending": true
+      }
+    ],
+    "heading": "Hoodies and sweatshirts"
+  },
+  {
+    "slug": "group-event",
+    "title": "Group & Event",
+    "nav": "Group",
+    "hero": "/categories/group-event.jpg",
+    "heroAlt": "Friends group wearing matching navy custom t-shirts outdoors",
+    "summary": "Short runs for trips, reunions, celebrations and campaigns.",
+    "intro": "Small runs are usually treated as an inconvenience by larger units. Because every stage happens inside our unit, a 10-piece order does not have to wait behind someone else's queue at a printer or embroiderer.",
+    "buyers": [
+      "Friend groups and families",
+      "Event organisers",
+      "Alumni associations",
+      "Tour and trip groups"
+    ],
+    "constructions": [
+      "single-jersey",
+      "performance-poly"
+    ],
+    "decoration": [
+      "dtf",
+      "screen",
+      "sublimation"
+    ],
+    "defaultProduct": "tee",
+    "considerations": [
+      "DTF suits short runs better than screen, which carries a per-colour setup.",
+      "Names on the back cost nothing extra under DTF or sublimation.",
+      "Event dates are fixed — confirm the timeline before artwork is finalised."
+    ],
+    "seoTitle": "Group & Event T-Shirt Manufacturer in Tiruppur | Small Quantity",
+    "seoDescription": "Custom group and event t-shirts manufactured in Tiruppur. Trips, reunions, birthdays, family functions and campaigns. Short runs from 10 pieces.",
+    "subcategories": [
+      {
+        "slug": "friends-group-tshirts",
+        "title": "Friends & Group T-Shirts",
+        "image": "/categories/group-event.jpg",
+        "blurb": "Matching tees with individual names on the back.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "birthday-celebration-tshirts",
+        "title": "Birthday & Celebration",
+        "image": "/categories/group-event.jpg",
+        "blurb": "One-off runs for milestone birthdays and parties.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "family-event-tshirts",
+        "title": "Family Event T-Shirts",
+        "image": "/categories/group-event.jpg",
+        "blurb": "Weddings and family functions, adult and kids sizes together.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "reunions-alumni-tshirts",
+        "title": "Reunions & Alumni",
+        "image": "/categories/group-event.jpg",
+        "blurb": "Batch-year tees, often reordered annually from the same spec.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "trip-tour-tshirts",
+        "title": "Trip & Tour T-Shirts",
+        "image": "/categories/group-event.jpg",
+        "blurb": "Breathable tees for treks, tours and long travel days.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "custom-event-tshirts",
+        "title": "Custom Event T-Shirts",
+        "image": "/categories/group-event.jpg",
+        "blurb": "Conferences, marathons, volunteer teams and campaigns.",
+        "product": "tee",
+        "imagePending": true
+      }
+    ],
+    "heading": "Group and event t-shirts"
+  },
+  {
+    "slug": "private-label",
+    "title": "Your Own Brand",
+    "nav": "Own Brand",
+    "hero": "/categories/private-label.jpg",
+    "heroAlt": "Folded branded t-shirts with woven labels and hang tags",
+    "summary": "Your brand, your labels, your packing specification.",
+    "intro": "Private label work means the garment leaves carrying your identity and nothing of ours. Woven neck labels, care and size tags, hang tags, poly bagging and carton marking all follow your specification.",
+    "buyers": [
+      "Clothing labels and brands",
+      "D2C founders",
+      "Retailers developing own-label lines",
+      "Resellers"
+    ],
+    "constructions": [
+      "single-jersey",
+      "pique",
+      "interlock",
+      "fleece"
+    ],
+    "decoration": [
+      "screen",
+      "dtf",
+      "dtg",
+      "embroidery"
+    ],
+    "defaultProduct": "tee",
+    "considerations": [
+      "Send label artwork early — trims often take longer to arrive than fabric.",
+      "Neck print is an alternative to a woven label where softness matters.",
+      "Packing specification should be fixed before bulk, not at dispatch."
+    ],
+    "seoTitle": "Private Label Clothing Manufacturer in Tiruppur | Own Brand Knitwear",
+    "seoDescription": "Private label knitwear manufacturing in Tiruppur. Your woven labels, care tags and packing. Tees, polos and hoodies from 10 pieces.",
+    "subcategories": [
+      {
+        "slug": "private-label-tshirts",
+        "title": "Private-Label T-Shirts",
+        "image": "/categories/private-label.jpg",
+        "blurb": "Your brand on the neck label, not ours. Any neck style and fit.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "custom-polo",
+        "title": "Custom Polo",
+        "image": "/categories/sub/corporate-polo.jpg",
+        "blurb": "Collar, placket, button and tipping specified to your design.",
+        "product": "polo",
+        "imagePending": true
+      },
+      {
+        "slug": "custom-hoodie-sweatshirt",
+        "title": "Custom Hoodie & Sweatshirt",
+        "image": "/categories/hoodies-sweatshirts.jpg",
+        "blurb": "Fleece or loop knit with your trims, drawcords and tags.",
+        "product": "hoodie",
+        "imagePending": true
+      },
+      {
+        "slug": "cut-and-sew",
+        "title": "Cut & Sew",
+        "image": "/categories/private-label.jpg",
+        "blurb": "Made from your pattern or developed with you from a reference garment.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "printing-embroidery",
+        "title": "Printing & Embroidery",
+        "image": "/categories/private-label.jpg",
+        "blurb": "All five methods in-house — screen, DTF, DTG, embroidery, sublimation.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "labels-packaging",
+        "title": "Labels & Packaging",
+        "image": "/categories/private-label.jpg",
+        "blurb": "Woven labels, care tags, hang tags, poly bags and carton marking.",
+        "product": "tee",
+        "imagePending": true
+      },
+      {
+        "slug": "bulk-custom-apparel",
+        "title": "Bulk CustomWear",
+        "image": "/categories/private-label.jpg",
+        "blurb": "Repeat production runs held against one approved specification.",
+        "product": "tee",
+        "imagePending": true
+      }
+    ],
+    "heading": "Your own brand, made by us"
+  }
+]

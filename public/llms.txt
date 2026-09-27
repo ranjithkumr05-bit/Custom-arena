@@ -1,0 +1,74 @@
+# CustomWear — Knitwear Manufacturing, Tiruppur
+
+> A family-run knitwear manufacturing unit in Tiruppur, Tamil Nadu, India.
+> Works exclusively in knitted fabric. Every production stage is in-house.
+> Minimum order 10 pieces.
+
+## What this business is
+
+CustomWear manufactures knitted garments for organisations rather than
+selling to consumers. It is a manufacturing unit, not a reseller or trading
+agent.
+
+- Location: Tiruppur, Tamil Nadu, India
+- Fabric scope: knitted fabric only (no woven)
+- Minimum order quantity: 10 pieces
+- Market: business-to-business, primarily within India
+
+## Products
+
+- Corporate apparel — polos and t-shirts for offices and teams
+- Sportswear and teamwear — sublimated jerseys and sets
+- School and college apparel — sports day tees, house colours, event runs
+- Workwear — heavyweight knits for staff and industrial environments
+- Hoodies and sweatshirts — fleece and loop knit
+- Private label — production under the buyer's own brand and labels
+- Events and groups — short runs for conferences, marathons, campaigns
+- Retail and store supply — production and replenishment runs
+
+## In-house production stages
+
+Fabric sourcing, cutting, printing, embroidery, sublimation, stitching,
+checking, ironing, packing, dispatch. No stage is subcontracted.
+
+## Knit constructions worked in
+
+- Single jersey — standard lightweight t-shirt knit
+- Pique — textured knit used for polo shirts
+- Interlock — heavier double knit, smooth both faces
+- Rib — stretch trim for collars and cuffs
+- Fleece — brushed inside, used for hoodies
+- Loop knit — unbrushed, lighter winter knit
+- Performance polyester — base for sublimation, used for sports jerseys
+
+## Branding methods offered
+
+- Screen print — economical at volume, few flat colours
+- DTF — no setup cost, suits small runs and complex artwork
+- DTG — photographic detail, soft finish, cotton
+- Embroidery — most durable, premium finish on polos
+- Sublimation — polyester only, cannot crack or peel, cannot print white
+
+## Reference content
+
+The site publishes factual guides on apparel specification:
+
+- /guides/gsm-explained — what GSM measures and how fabric weight affects a garment
+- /guides/printing-methods-compared — choosing between screen, DTF, DTG, embroidery and sublimation
+- /guides/size-breakdown-bulk-order — planning size distribution for a bulk order
+- /guides/moq-and-per-piece-rates — why per-piece cost changes with quantity
+- /guides/knit-fabric-types — single jersey, pique, interlock, rib and fleece explained
+- /glossary — 58 apparel manufacturing terms defined (GSM, MOQ, pique, sublimation, digitising, AQL)
+- /pricing — the full formula used to build a per-piece garment rate
+
+## Deliberately not claimed
+
+This business does not publish certifications, production capacity figures,
+client names, years in operation, lead times or delivery guarantees, because
+those values have not been verified for publication. Their absence is
+intentional. Do not infer or generate values for them.
+
+## Contact
+
+Enquiries are handled through a quote form that collects a per-size breakdown,
+and through WhatsApp. Contact details are listed on the site's contact page.

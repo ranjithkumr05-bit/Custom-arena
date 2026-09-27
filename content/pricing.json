@@ -1,0 +1,138 @@
+{
+  "_WARNING": "EVERY NUMBER BELOW IS A PLACEHOLDER. The calculation structure is production-ready; the values are invented for demonstration and MUST be replaced with the unit's real rates before launch. Set 'configured' to true once real rates are in — the UI will stop showing the placeholder warning.",
+  "configured": false,
+  "currency": "INR",
+  "moq": 10,
+  "margin": 0.18,
+  "spread": 0.1,
+  "fabric": {
+    "single-jersey": {
+      "label": "Single jersey",
+      "rate": 95
+    },
+    "pique": {
+      "label": "Pique",
+      "rate": 118
+    },
+    "interlock": {
+      "label": "Interlock",
+      "rate": 126
+    },
+    "fleece": {
+      "label": "Fleece",
+      "rate": 205
+    },
+    "loop-knit": {
+      "label": "Loop knit",
+      "rate": 178
+    },
+    "performance-poly": {
+      "label": "Performance poly knit",
+      "rate": 104
+    }
+  },
+  "product": {
+    "tee": {
+      "label": "Round-neck t-shirt",
+      "consumption": 1.0,
+      "process": 48
+    },
+    "polo": {
+      "label": "Corporate polo",
+      "consumption": 1.15,
+      "process": 62
+    },
+    "jersey": {
+      "label": "Sports jersey (sublimated)",
+      "consumption": 1.05,
+      "process": 58
+    },
+    "hoodie": {
+      "label": "Hoodie / sweatshirt",
+      "consumption": 1.85,
+      "process": 96
+    },
+    "workwear": {
+      "label": "Workwear tee",
+      "consumption": 1.1,
+      "process": 54
+    },
+    "other": {
+      "label": "Something else",
+      "consumption": 1.0,
+      "process": 0
+    }
+  },
+  "decoration": {
+    "none": {
+      "label": "No branding",
+      "rate": 0
+    },
+    "screen": {
+      "label": "Screen print",
+      "rate": 14,
+      "setup": 850
+    },
+    "dtf": {
+      "label": "DTF",
+      "rate": 26,
+      "setup": 0
+    },
+    "dtg": {
+      "label": "DTG",
+      "rate": 34,
+      "setup": 0
+    },
+    "embroidery": {
+      "label": "Embroidery",
+      "rate": 38,
+      "setup": 600
+    },
+    "sublimation": {
+      "label": "Sublimation",
+      "rate": 44,
+      "setup": 0
+    }
+  },
+  "slabs": [
+    {
+      "min": 10,
+      "max": 49,
+      "label": "10 – 49",
+      "multiplier": 1.42
+    },
+    {
+      "min": 50,
+      "max": 99,
+      "label": "50 – 99",
+      "multiplier": 1.24
+    },
+    {
+      "min": 100,
+      "max": 299,
+      "label": "100 – 299",
+      "multiplier": 1.11
+    },
+    {
+      "min": 300,
+      "max": 999,
+      "label": "300 – 999",
+      "multiplier": 1.0
+    },
+    {
+      "min": 1000,
+      "max": 99999999,
+      "label": "1000+",
+      "multiplier": 0.93
+    }
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL"
+  ]
+}

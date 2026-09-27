@@ -1,0 +1,128 @@
+{
+  "name": "Custom Apparel — RFQ intake",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "custom-apparel-rfq",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "webhook",
+      "name": "RFQ received",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [-420, 300],
+      "webhookId": "custom-apparel-rfq"
+    },
+    {
+      "parameters": {
+        "jsCode": "const r = $json.body?.rfq ?? $json.rfq ?? $json;\n\nconst sizes = Object.entries(r.sizes || {})\n  .filter(([, v]) => Number(v) > 0)\n  .map(([k, v]) => `${k}:${v}`)\n  .join('  ');\n\n// Simple lead scoring: quantity, buyer type and whether a date was given.\nlet score = 0;\nif (r.qty >= 500) score += 40;\nelse if (r.qty >= 100) score += 25;\nelse if (r.qty >= 50) score += 15;\nelse score += 5;\n\nif (r.organisation) score += 15;\nif (r.requiredBy) score += 15;\nif (r.email) score += 10;\nif (['School or college', 'Company / corporate'].includes(r.buyerType)) score += 15;\n\nconst priority = score >= 60 ? 'high' : score >= 35 ? 'medium' : 'low';\n\nreturn [{\n  json: {\n    ...r,\n    sizeSummary: sizes,\n    score,\n    priority,\n    summary: `${r.qty} pcs ${r.product} (${r.fabric}) — ${r.decoration} x ${r.positions}`,\n    waLink: `https://wa.me/${String(r.phone || '').replace(/\\D/g, '')}`\n  }\n}];"
+      },
+      "id": "enrich",
+      "name": "Score and format",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-200, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "version": 2 },
+          "conditions": [
+            {
+              "leftValue": "={{ $json.priority }}",
+              "rightValue": "high",
+              "operator": { "type": "string", "operation": "equals" }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "route",
+      "name": "High priority?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [40, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v21.0/YOUR_PHONE_NUMBER_ID/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"messaging_product\": \"whatsapp\",\n  \"to\": \"YOUR_OWN_NUMBER\",\n  \"type\": \"text\",\n  \"text\": {\n    \"body\": \"🔴 HIGH PRIORITY RFQ {{ $json.ref }}\\n\\n{{ $json.name }} — {{ $json.organisation }}\\n{{ $json.phone }} · {{ $json.city }}\\n\\n{{ $json.summary }}\\nSizes: {{ $json.sizeSummary }}\\nNeeded by: {{ $json.requiredBy }}\\n\\nScore: {{ $json.score }}\"\n  }\n}",
+        "options": {}
+      },
+      "id": "wa-alert",
+      "name": "WhatsApp alert to owner",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [300, 180]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": { "__rl": true, "value": "YOUR_SHEET_ID", "mode": "id" },
+        "sheetName": { "__rl": true, "value": "RFQs", "mode": "name" },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "matchingColumns": ["ref"]
+        },
+        "options": {}
+      },
+      "id": "sheet",
+      "name": "Append to CRM sheet",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [300, 420]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.email }}",
+        "subject": "=We have your enquiry — {{ $json.ref }}",
+        "emailType": "text",
+        "message": "=Hello {{ $json.name }},\n\nThank you for your enquiry. Your reference is {{ $json.ref }}.\n\nWhat you sent us:\n{{ $json.summary }}\nSize breakdown: {{ $json.sizeSummary }}\nTotal: {{ $json.qty }} pieces\n\nWe will come back to you with a confirmed rate. You can check the status of this enquiry at any time using your reference on our tracking page.\n\nIf anything above is wrong, reply to this email or message us on WhatsApp.",
+        "options": {}
+      },
+      "id": "ack",
+      "name": "Acknowledge buyer",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [560, 420]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ ok: true, ref: $json.ref, priority: $json.priority }) }}",
+        "options": {}
+      },
+      "id": "respond",
+      "name": "Respond",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [820, 300]
+    }
+  ],
+  "connections": {
+    "RFQ received": { "main": [[{ "node": "Score and format", "type": "main", "index": 0 }]] },
+    "Score and format": { "main": [[{ "node": "High priority?", "type": "main", "index": 0 }]] },
+    "High priority?": {
+      "main": [
+        [{ "node": "WhatsApp alert to owner", "type": "main", "index": 0 }],
+        [{ "node": "Append to CRM sheet", "type": "main", "index": 0 }]
+      ]
+    },
+    "WhatsApp alert to owner": { "main": [[{ "node": "Append to CRM sheet", "type": "main", "index": 0 }]] },
+    "Append to CRM sheet": { "main": [[{ "node": "Acknowledge buyer", "type": "main", "index": 0 }]] },
+    "Acknowledge buyer": { "main": [[{ "node": "Respond", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "pinData": {},
+  "meta": {
+    "description": "Receives every RFQ from the Custom Apparel website, scores it, alerts the owner on WhatsApp for high-value enquiries, logs it to a CRM sheet and emails the buyer an acknowledgement. Replace YOUR_PHONE_NUMBER_ID, YOUR_OWN_NUMBER and YOUR_SHEET_ID before activating."
+  }
+}
