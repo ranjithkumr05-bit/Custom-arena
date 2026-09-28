@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Faq from "@/components/Faq";
 import Reveal from "@/components/Reveal";
-import KnitPattern from "@/components/KnitPattern";
 import HeroRotator from "@/components/HeroRotator";
 import { Stitch, PROCESS_ICONS, METHOD_ICONS } from "@/components/icons";
 import StartHere from "@/components/StartHere";
@@ -12,6 +11,14 @@ import NextStep from "@/components/NextStep";
 import { Btn, Eyebrow, Jsonld, SectionHead, Tag, Wrap } from "@/components/ui";
 import { DECORATION, PROCESS, SITE, publishableFaqs } from "@/lib/content";
 import { publicCatalog } from "@/lib/catalog";
+
+/**
+ * 20px blur placeholder for the hero backdrop — produced by
+ * `scripts/hero-fabric.mjs` and inlined so the first paint is textured navy
+ * rather than flat #050f1e.
+ */
+const HERO_FABRIC_LQIP =
+  "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQBACdASoUAAsAPu1iqU2ppaQiMAgBMB2JZwCw7CK5pwOzNDZMxu/YAAD+8rHG5hhwAzDoZdShi7tkgZR3JBVbGJMpuyNnlutAAA==";
 
 const faqLd = {
   "@context": "https://schema.org",
@@ -32,12 +39,30 @@ export default function Home() {
       {/* ================= HERO ================= */}
       {/* Editorial split rather than the usual full-bleed photo at 35%
           opacity with text laid over it. Type owns the left, product owns
-          the right, and the knit motif gives the navy real texture. */}
-      <section className="relative overflow-hidden bg-[#050f1e] text-white">
+          the right.
+          The backdrop is the unit's own knit rather than a stock factory
+          floor. It is laid down twice: once for the yarn structure, once
+          screened, so only the threads catching light and the gold bokeh
+          rise out of the navy. Dark stays dark; the fabric reads as light
+          rather than as wallpaper. */}
+      <section className="relative isolate overflow-hidden bg-[#050f1e] text-white">
+        <Image
+          src="/banners/hero-fabric.webp" alt="" fill priority sizes="100vw"
+          placeholder="blur" blurDataURL={HERO_FABRIC_LQIP}
+          className="pointer-events-none object-cover object-[62%_38%] opacity-40"
+        />
+        <Image
+          src="/banners/hero-fabric.webp" alt="" fill sizes="100vw"
+          className="pointer-events-none object-cover object-[62%_38%] opacity-55 mix-blend-screen"
+        />
         {/* depth from layered light, not from wallpaper */}
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(1200px_600px_at_15%_-10%,#123055_0%,transparent_60%)]" />
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(800px_500px_at_95%_110%,rgba(200,162,74,.13)_0%,transparent_58%)]" />
-        <KnitPattern className="text-gold-400" opacity={0.035} scale={58} />
+        {/* The headline sits on a photograph now, so readability is a
+            measurement, not a hope: the copy side is darkened harder than
+            the product side, and the foot fades into the next section.
+            scripts/hero-contrast.mjs checks the result against WCAG AA. */}
+        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_bottom,rgba(5,15,30,.82)_0%,rgba(5,15,30,.42)_46%,rgba(5,15,30,.24)_100%)] md:bg-[linear-gradient(97deg,rgba(5,15,30,.92)_0%,rgba(5,15,30,.68)_40%,rgba(5,15,30,.26)_68%,rgba(5,15,30,.12)_100%)]" />
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_bottom,transparent_55%,rgba(5,15,30,.85)_100%)]" />
 
         <Wrap className="relative grid items-center gap-10 py-10 sm:py-14 md:grid-cols-[1.05fr_.95fr] md:gap-10 md:py-16 lg:gap-16 lg:py-24">
